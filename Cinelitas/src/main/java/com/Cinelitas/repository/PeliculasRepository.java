@@ -4,10 +4,12 @@
  */
 package com.Cinelitas.repository;
 
-
 import com.Cinelitas.entity.Peliculas;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
+
+
+
 
 
 /**
@@ -15,6 +17,6 @@ import org.springframework.stereotype.Repository;
  * @author kbalt
  */
 @Repository
-public interface PeliculasRepository extends CrudRepository<Peliculas, Long>{
+public interface PeliculasRepository extends CrudRepository <Peliculas, Long>{
     
 }
